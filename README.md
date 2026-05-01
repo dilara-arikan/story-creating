@@ -24,7 +24,7 @@ story-app/
 │   ├── .env                    ← API keys
 │   ├── routes/story.js         ← POST /api/story/generate
 │   ├── routes/tts.js           ← POST /api/tts/synthesize
-│   ├── services/geminiService.js
+│   ├── services/groqService.js
 │   ├── services/speechmaticsService.js
 │   └── prompts/systemPrompt.js
 └── frontend/src/
