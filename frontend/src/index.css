@@ -1,0 +1,27 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cream: #FDF8F0;
+  --warm-white: #FFFCF7;
+  --ink: #1C1712;
+  --ink-muted: #6B6257;
+  --amber: #D4820A;
+  --amber-light: #FEF3DC;
+  --sage: #4A7C59;
+  --sage-light: #EBF4EE;
+  --rose: #C0504A;
+  --border: rgba(28,23,18,0.10);
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --radius: 16px;
+  --shadow: 0 2px 16px rgba(28,23,18,0.08);
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
