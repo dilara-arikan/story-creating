@@ -1,6 +1,6 @@
 # Story Garden 🌿
 
-Generates moral-driven children's stories with Gemini 2.5 Pro, reads them aloud via Speechmatics TTS.
+Generates moral-driven children's stories with llama-3.3-70b-versatile model, reads them aloud via Speechmatics TTS.
 
 ## Setup
 
@@ -10,7 +10,7 @@ Generates moral-driven children's stories with Gemini 2.5 Pro, reads them aloud 
    (root) npm install
 
 2. Add API keys — edit backend/.env:
-   GEMINI_API_KEY=your_key
+   GROQ_API_KEY=your_key
    SPEECHMATICS_API_KEY=your_key
 
 3. Run: npm run dev (from root)
