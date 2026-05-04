@@ -16,20 +16,3 @@ Generates moral-driven children's stories with llama-3.3-70b-versatile model, re
 3. Run: npm run dev (from root)
    Frontend → http://localhost:3000
    Backend  → http://localhost:3001
-
-## Structure
-story-app/
-├── backend/
-│   ├── server.js
-│   ├── .env                    ← API keys
-│   ├── routes/story.js         ← POST /api/story/generate
-│   ├── routes/tts.js           ← POST /api/tts/synthesize
-│   ├── services/groqService.js
-│   ├── services/speechmaticsService.js
-│   └── prompts/systemPrompt.js
-└── frontend/src/
-    ├── App.jsx
-    ├── components/StoryForm.jsx
-    ├── components/StoryPlayer.jsx
-    ├── hooks/useStory.js
-    └── services/api.js
